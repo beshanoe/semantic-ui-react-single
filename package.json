@@ -6,11 +6,12 @@
   "license": "MIT",
   "homepage": "https://github.com/beshanoe/semantic-ui-react-single",
   "scripts": {
-    "build": "yarn run build:clean && yarn run build:generate && yarn run build:ts && yarn run build:copy-files",
+    "build":
+      "yarn run build:clean && yarn run build:generate && yarn run build:ts && yarn run build:copy-files",
     "build:ts": "tsc",
     "build:clean": "rimraf ./build",
     "build:copy-files": "node ./scripts/copy-files.js",
-    "build:generate": "node ./scripts/generate.js",
+    "build:generate": "node generate-ts.js",
     "publish": "cd build && npm publish"
   },
   "dependencies": {

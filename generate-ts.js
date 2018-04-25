@@ -1,7 +1,7 @@
 const fs = require("fs");
 const rimraf = require("rimraf");
 const path = require("path");
-const { getJsImports, getCssImports } = require("./get-imports-utils");
+const { getJsImports, getCssImports } = require("./scripts/get-imports-utils");
 
 const generateContent = (name, propsName, jsFileName, cssFileName) =>
   [
@@ -29,7 +29,7 @@ function generate() {
       content: generateContent(name, `${name}Props`, jsFileName, cssFileName)
     }))
     .forEach(({ name, content }) => {
-      fs.writeFile(`../src/${name}.ts`, content, err => {
+      fs.writeFile(`./src/${name}.ts`, content, err => {
         if (err) {
           console.log(name, err);
         }
@@ -42,5 +42,5 @@ rimraf("./src/*", err => {
     console.error(err);
   }
   generate();
-  fs.writeFile("../src/index.ts", "", () => {});
+  fs.writeFile("./src/index.ts", "", () => {});
 });
