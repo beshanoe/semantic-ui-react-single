@@ -1,0 +1,31 @@
+{
+  "name": "semantic-ui-react-single",
+  "description": "Import semantic-ui-react components one-by-one",
+  "version": "0.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn run build:clean && yarn run build:generate && yarn run build:ts && yarn run build:copy-files",
+    "build:ts": "tsc",
+    "build:clean": "rimraf ./build",
+    "build:copy-files": "node ./scripts/copy-files.js",
+    "build:generate": "node ./scripts/generate.js",
+    "publish": "cd build && npm publish"
+  },
+  "dependencies": {
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.79.1",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.12",
+    "directory-tree": "^2.1.0",
+    "fs-extra": "^5.0.0",
+    "react": "^16.3.2",
+    "rimraf": "^2.6.2"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.3.12",
+    "react": "^16.3.2"
+  }
+}
