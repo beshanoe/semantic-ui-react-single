@@ -1,13 +1,12 @@
 {
   "name": "semantic-ui-react-single",
   "description": "Import semantic-ui-react components one-by-one",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
   "homepage": "https://github.com/beshanoe/semantic-ui-react-single",
   "scripts": {
-    "build":
-      "yarn run build:clean && yarn run build:generate && yarn run build:ts && yarn run build:copy-files",
+    "build": "yarn run build:clean && yarn run build:generate && yarn run build:ts && yarn run build:copy-files",
     "build:ts": "tsc",
     "build:clean": "rimraf ./build",
     "build:copy-files": "node ./scripts/copy-files.js",
