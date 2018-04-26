@@ -7,7 +7,7 @@
   "homepage": "https://github.com/beshanoe/semantic-ui-react-single",
   "scripts": {
     "build":
-      "yarn run build:clean && yarn run build:generate && yarn run build:ts && yarn run build:copy-files",
+      "yarn run build:clean && yarn run build:ts && yarn run build:copy-files",
     "build:ts": "tsc",
     "build:clean": "rimraf ./build",
     "build:copy-files": "node ./scripts/copy-files.js",
@@ -15,7 +15,7 @@
     "publish": "cd build && npm publish"
   },
   "dependencies": {
-    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-css": "2.2.14",
     "semantic-ui-react": "^0.79.1",
     "typescript": "^2.8.3"
   },
