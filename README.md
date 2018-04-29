@@ -1,3 +1,12 @@
+### Installation
+```
+npm install semantic-ui-react-single
+```
+or
+```
+yarn add semantic-ui-react-single
+```
+### Description
 This package gives you convenient way to import semantic-ui-react components one-by-one. For example:
 ```ts
 import { Menu } from 'semantic-ui-react-single/Menu'
@@ -9,13 +18,7 @@ Each component includes an import of corresponding CSS file, thus you have to ha
 
 Also, each component have TypeScript declaration.
 
-In order to make this package work properly, you still have to import some CSS files explicitly:
+In order to make this package work properly, you have to import module with the common CSS:
 ```ts
-import 'semantic-ui-css/components/reset.min.css'
-import 'semantic-ui-css/components/site.min.css'
-import 'semantic-ui-css/components/transition.min.css'
-```
-Also, if you haven't imported Dimmer component explicitly, it's CSS needs to be imported to make other components like Modal work:
-```ts
-import 'semantic-ui-css/components/dimmer.min.css'
+import 'semantic-ui-react-single/css'
 ```
