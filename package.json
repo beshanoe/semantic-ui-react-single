@@ -1,7 +1,7 @@
 {
   "name": "semantic-ui-react-single",
   "description": "Import semantic-ui-react components one-by-one",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "homepage": "https://github.com/beshanoe/semantic-ui-react-single",
