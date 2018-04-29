@@ -4,3 +4,4 @@ export { default as ModalContent, ModalContentProps } from 'semantic-ui-react/di
 export { default as ModalDescription, ModalDescriptionProps } from 'semantic-ui-react/dist/commonjs/modules/Modal/ModalDescription';
 export { default as ModalHeader, ModalHeaderProps } from 'semantic-ui-react/dist/commonjs/modules/Modal/ModalHeader';
 import "semantic-ui-css/components/modal.min.css";
+import "semantic-ui-css/components/dimmer.min.css";

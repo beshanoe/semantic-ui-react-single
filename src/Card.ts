@@ -5,3 +5,4 @@ export { default as CardGroup, CardGroupProps } from 'semantic-ui-react/dist/com
 export { default as CardHeader, CardHeaderProps } from 'semantic-ui-react/dist/commonjs/views/Card/CardHeader';
 export { default as CardMeta, CardMetaProps } from 'semantic-ui-react/dist/commonjs/views/Card/CardMeta';
 import "semantic-ui-css/components/card.min.css";
+import "semantic-ui-css/components/dimmer.min.css";
