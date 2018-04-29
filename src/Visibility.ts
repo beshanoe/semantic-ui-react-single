@@ -1,3 +1,7 @@
-import Visibility, { VisibilityProps } from "semantic-ui-react/dist/commonjs/behaviors/Visibility";
-
-export { Visibility, VisibilityProps };
+export {
+  default as Visibility,
+  VisibilityCalculations,
+  VisibilityEventData,
+  VisibilityOnPassed,
+  VisibilityProps
+} from 'semantic-ui-react/dist/commonjs/behaviors/Visibility';

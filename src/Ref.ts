@@ -1,3 +1,1 @@
-import Ref, { RefProps } from "semantic-ui-react/dist/commonjs/addons/Ref";
-
-export { Ref, RefProps };
+export { default as Ref, RefProps } from 'semantic-ui-react/dist/commonjs/addons/Ref';

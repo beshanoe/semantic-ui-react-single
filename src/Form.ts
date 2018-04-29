@@ -1,3 +1,11 @@
-import Form, { FormProps } from "semantic-ui-react/dist/commonjs/collections/Form";
+export { default as Form, FormComponent, FormProps } from 'semantic-ui-react/dist/commonjs/collections/Form';
+export { default as FormButton, FormButtonProps } from 'semantic-ui-react/dist/commonjs/collections/Form/FormButton';
+export { default as FormCheckbox, FormCheckboxProps } from 'semantic-ui-react/dist/commonjs/collections/Form/FormCheckbox';
+export { default as FormDropdown, FormDropdownProps } from 'semantic-ui-react/dist/commonjs/collections/Form/FormDropdown';
+export { default as FormField, FormFieldProps } from 'semantic-ui-react/dist/commonjs/collections/Form/FormField';
+export { default as FormGroup, FormGroupProps } from 'semantic-ui-react/dist/commonjs/collections/Form/FormGroup';
+export { default as FormInput, FormInputProps } from 'semantic-ui-react/dist/commonjs/collections/Form/FormInput';
+export { default as FormRadio, FormRadioProps } from 'semantic-ui-react/dist/commonjs/collections/Form/FormRadio';
+export { default as FormSelect, FormSelectProps } from 'semantic-ui-react/dist/commonjs/collections/Form/FormSelect';
+export { default as FormTextArea, FormTextAreaProps } from 'semantic-ui-react/dist/commonjs/collections/Form/FormTextArea';
 import "semantic-ui-css/components/form.min.css";
-export { Form, FormProps };

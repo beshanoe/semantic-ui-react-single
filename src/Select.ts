@@ -1,3 +1,1 @@
-import Select, { SelectProps } from "semantic-ui-react/dist/commonjs/addons/Select";
-
-export { Select, SelectProps };
+export { default as Select, SelectProps } from 'semantic-ui-react/dist/commonjs/addons/Select';

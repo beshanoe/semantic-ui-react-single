@@ -1,3 +1,10 @@
-import Comment, { CommentProps } from "semantic-ui-react/dist/commonjs/views/Comment";
+export { default as Comment, CommentProps } from 'semantic-ui-react/dist/commonjs/views/Comment';
+export { default as CommentAction, CommentActionProps } from 'semantic-ui-react/dist/commonjs/views/Comment/CommentAction';
+export { default as CommentActions, CommentActionsProps } from 'semantic-ui-react/dist/commonjs/views/Comment/CommentActions';
+export { default as CommentAuthor, CommentAuthorProps } from 'semantic-ui-react/dist/commonjs/views/Comment/CommentAuthor';
+export { default as CommentAvatar, CommentAvatarProps } from 'semantic-ui-react/dist/commonjs/views/Comment/CommentAvatar';
+export { default as CommentContent, CommentContentProps } from 'semantic-ui-react/dist/commonjs/views/Comment/CommentContent';
+export { default as CommentGroup, CommentGroupProps } from 'semantic-ui-react/dist/commonjs/views/Comment/CommentGroup';
+export { default as CommentMetadata, CommentMetadataProps } from 'semantic-ui-react/dist/commonjs/views/Comment/CommentMetadata';
+export { default as CommentText, CommentTextProps } from 'semantic-ui-react/dist/commonjs/views/Comment/CommentText';
 import "semantic-ui-css/components/comment.min.css";
-export { Comment, CommentProps };

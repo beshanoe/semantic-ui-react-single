@@ -1,3 +1,1 @@
-import MountNode, { MountNodeProps } from "semantic-ui-react/dist/commonjs/addons/MountNode";
-
-export { MountNode, MountNodeProps };
+export { default as MountNode, MountNodeProps } from 'semantic-ui-react/dist/commonjs/addons/MountNode';

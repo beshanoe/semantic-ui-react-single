@@ -1,3 +1,1 @@
-import Portal, { PortalProps } from "semantic-ui-react/dist/commonjs/addons/Portal";
-
-export { Portal, PortalProps };
+export { default as Portal, PortalProps } from 'semantic-ui-react/dist/commonjs/addons/Portal';

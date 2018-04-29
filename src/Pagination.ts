@@ -1,3 +1,2 @@
-import Pagination, { PaginationProps } from "semantic-ui-react/dist/commonjs/addons/Pagination";
-
-export { Pagination, PaginationProps };
+export { default as Pagination, PaginationProps } from 'semantic-ui-react/dist/commonjs/addons/Pagination';
+export { default as PaginationItem, PaginationItemProps } from 'semantic-ui-react/dist/commonjs/addons/Pagination/PaginationItem';

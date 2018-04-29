@@ -1,3 +1,5 @@
-import Responsive, { ResponsiveProps } from "semantic-ui-react/dist/commonjs/addons/Responsive";
-
-export { Responsive, ResponsiveProps };
+export {
+  default as Responsive,
+  ResponsiveProps,
+  ResponsiveWidthShorthand
+} from 'semantic-ui-react/dist/commonjs/addons/Responsive';

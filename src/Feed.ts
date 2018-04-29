@@ -1,3 +1,11 @@
-import Feed, { FeedProps } from "semantic-ui-react/dist/commonjs/views/Feed";
+export { default as Feed, FeedProps } from 'semantic-ui-react/dist/commonjs/views/Feed';
+export { default as FeedContent, FeedContentProps } from 'semantic-ui-react/dist/commonjs/views/Feed/FeedContent';
+export { default as FeedDate, FeedDateProps } from 'semantic-ui-react/dist/commonjs/views/Feed/FeedDate';
+export { default as FeedEvent, FeedEventProps } from 'semantic-ui-react/dist/commonjs/views/Feed/FeedEvent';
+export { default as FeedExtra, FeedExtraProps } from 'semantic-ui-react/dist/commonjs/views/Feed/FeedExtra';
+export { default as FeedLabel, FeedLabelProps } from 'semantic-ui-react/dist/commonjs/views/Feed/FeedLabel';
+export { default as FeedLike, FeedLikeProps } from 'semantic-ui-react/dist/commonjs/views/Feed/FeedLike';
+export { default as FeedMeta, FeedMetaProps } from 'semantic-ui-react/dist/commonjs/views/Feed/FeedMeta';
+export { default as FeedSummary, FeedSummaryProps } from 'semantic-ui-react/dist/commonjs/views/Feed/FeedSummary';
+export { default as FeedUser, FeedUserProps } from 'semantic-ui-react/dist/commonjs/views/Feed/FeedUser';
 import "semantic-ui-css/components/feed.min.css";
-export { Feed, FeedProps };
